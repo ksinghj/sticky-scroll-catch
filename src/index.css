@@ -14,11 +14,7 @@ body {
   display: flex;
   flex-direction: row;
   padding: 0;
-}
-
-/* fix for sticky in flex */
-.sticky-flex-fix {
-  align-self: flex-start;
+  /* align-items: flex-start; */
 }
 
 .left {
@@ -28,6 +24,7 @@ body {
 .center {
   padding-bottom: 5000px;
   background: blue;
+  margin: 0 20px;
 }
 .right {
   padding-bottom: 900px;

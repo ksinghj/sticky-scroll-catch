@@ -1,3 +1,7 @@
+.js-sticky-scroll-catch {
+  align-self: flex-start;
+}
+
 .sticky-scroll-catch--scrolled {
   position: fixed;
   bottom: 0;

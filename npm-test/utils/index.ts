@@ -9,6 +9,7 @@ export const isElmScrolledBottom = (elm: HTMLElement): boolean => {
 
 export const resetStyle = (elm: HTMLElement, classPrefix = 'sticky-scroll-catch'): void => {
   elm.style.bottom = null
+  elm.style.left = null
   for (let i = elm.classList.length - 1; i >= 0; i--) {
     const className = elm.classList[i]
     if (className.startsWith(classPrefix)) {
@@ -41,4 +42,15 @@ export const STATES: StatesConfig = {
 export const setActiveState = (classToAdd: string, elm: HTMLElement): void => {
   resetStyle(elm)
   elm.classList.add(classToAdd)
+}
+
+export const calcLeftPos = (elm: HTMLElement) => {
+  let left = elm.getBoundingClientRect().left
+  let parentLeft = elm.parentElement.getBoundingClientRect().left
+
+  let res = left - parentLeft
+  return {
+    fixed: left,
+    absolute: res
+  }
 }

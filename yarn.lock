@@ -5411,10 +5411,10 @@ stealthy-require@^1.1.1:
   resolved "https://registry.yarnpkg.com/stealthy-require/-/stealthy-require-1.1.1.tgz#35b09875b4ff49f26a777e509b3090a3226bf24b"
   integrity sha1-NbCYdbT/SfJqd35QmzCQoyJr8ks=
 
-sticky-scroll-catch@1.1.1:
-  version "1.1.1"
-  resolved "https://registry.yarnpkg.com/sticky-scroll-catch/-/sticky-scroll-catch-1.1.1.tgz#be85b9df3e0a891e6e2690c8dcc746981ba75794"
-  integrity sha512-Ru4IcrjuTLRMM0NtJ9eL5Gi8bi4nlC1aQA7rfJt2sOmb//mIJ1f0AhiNoNc4a1oSvM/AMmr8M9LbIBK1jGbyLg==
+sticky-scroll-catch@1.3.2:
+  version "1.3.2"
+  resolved "https://registry.yarnpkg.com/sticky-scroll-catch/-/sticky-scroll-catch-1.3.2.tgz#c46115997712f7222ef9965c9ed381140a0d085c"
+  integrity sha512-M1TeF1pNQFDWmFy0JbykJR27oAer7THOyJeDfXO8lEUDryXFTb574uxzU5LY9UqPyKju71u+XfS9vFvoH3tNkA==
   dependencies:
     abab "^2.0.5"
     abortcontroller-polyfill "^1.7.1"
