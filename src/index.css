@@ -26,7 +26,7 @@ body {
   background: red;
 }
 .center {
-  padding-bottom: 1200px;
+  padding-bottom: 5000px;
   background: blue;
 }
 .right {
@@ -37,28 +37,4 @@ body {
 
 .container {
   position: relative;
-}
-
-/* target scrolled to bottom */
-.sticky-scroll-catch--scrolled {
-  position: fixed;
-  bottom: 0;
-}
-
-.sticky-scroll-catch--break {
-  position: absolute;
-  bottom: 0;
-}
-
-.sticky-scroll-catch--upscroll {
-  position: absolute;
-}
-
-.sticky-scroll-catch--downscroll {
-  position: absolute;
-}
-
-.sticky-scroll-catch--scrolled-top {
-  position: fixed;
-  top: 0;
 }
